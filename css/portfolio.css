@@ -457,19 +457,23 @@ background:linear-gradient(to top,rgba(0, 0, 0, .6),#9228e2 ,#a52ae4 ,#b82de5);
 }
 
 #footer .icon-footer {
-    background-color: transparent;
+
     width: 10px;
     height: 20px;
-    padding: 20px;
-    border-radius: 50%;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--annuai-color);
-    transition: background-color .9s, border .1s;
+    font-size: 20px; 
+  
 }
-
-#footer .icon-footer:hover {
-    background-color: var(--annuai-color);
-    border: 2px solid white;
+#footer .icon-footer a i{
+    /* font-size: 50px;  */
+}
+#footer .icon-footer i:hover   {
+    transition: .7s;
+    margin-right: 20px;
+    margin-left: 20px; 
+    font-size: 40px; 
+    
 }
