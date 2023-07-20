@@ -224,6 +224,9 @@ html {
 /* ================================ a b o u t ========================================= */
 #about {
     z-index: -2;
+
+background: linear-gradient(to top, #1E1842, #0f0839, #18212f)
+ 
 }
 
 #about .boob {
@@ -281,9 +284,7 @@ html {
 }
 
 #about .about-img {
-    /* display: none; */
     position: absolute;
-    /* top: 50%; */
     right: 50%;
     transform: translateX(50%);
 
@@ -301,6 +302,22 @@ html {
         transform-origin: 20% 10%;
         transform: rotate(-65deg);
     }
+}
+#about .cv{
+    margin-bottom:3px ;
+}
+#about .cv a{
+    color: white;
+    border-radius: 5px;
+    padding: .6rem 1.5rem;
+    margin: 2rem 0;
+    background:linear-gradient(#8126e1,#9228e2 ,#a52ae4 ,#b82de5);
+
+    transition: .7s background;
+}
+#about .cv a:hover{
+
+background:linear-gradient(to top,rgba(0, 0, 0, .6),#9228e2 ,#a52ae4 ,#b82de5);
 }
 
 
